@@ -85,9 +85,9 @@ h2{
     flex-direction: column;
     align-items: center;
     color:antiquewhite;
-    animation-duration: 7s;
-    animation-name: ground;
     animation: 8s infinite alternate ground;
+     animation-duration: 7s;
+    animation-name: ground;
 }
 @keyframes ground {
     0%{
@@ -115,8 +115,9 @@ h2{
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
+    animation: 8s infinite alternate ground;
     animation-name: ground;
-    animation: 8s infinite alternate ground;}
+}
     
     .a{
         color: rgb(233, 71, 71);
