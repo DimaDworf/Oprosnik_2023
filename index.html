@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Опросник</title>
+    <h1>Религия</h1>
+    <form method="post" autocomplete="on" class="info">
+            <div>
+        <label for="name">Имя</label>
+        <input name="name"  id="name" type="text" required placeholder="Имя...">
+    </div>
+    <div>
+        <label for="surname">Фамилия</label>
+        <input name="surname" id="surname" type="text" required placeholder="Фамилия...">
+    </div>
+    <div>
+        <label for="date">Дата рождения</label>
+        <input name="date"  id="date" type="date">
+    </div>
+    <div>
+        <label for="tel">Телефон</label>
+        <input name="tel" id="tel" type="tel" placeholder="Телефон...">
+    </div>
+    <div>
+        <label for="email">Email</label>
+       <input name="email" id="email" type="email" placeholder="email...">
+    </div>
+    <div>
+       <label for="image">Фотография</label>
+        <input name="image" id="image" type="file">
+    </div>
+    </form>
+</head>
+<body>
+<h2>Опрос</h2>
+<form action="https://tests.fomenko.top/echo/index.php" method="post" class="form">
+<div class="cont">
+    <div class="ads1">
+        <img class="img" src="images/Rolls_Royse.jpg" alt="img">
+        <p class="p ">На фотографии выше изображена реклама Роллс-Ройса авторства того же человека. Заголовок (“На скорости 60 миль в час самый громкий звук в салоне – тиканье электро часов“) уже все сказал, поэтому в картинке нет необходимости.</p>
+    <a class="a" href="https://www.rolls-roycemotorcars.com/en_GB/home.html">Ссылка</a>
+    </div>
+    <div class="container">
+        <fieldset class="fieldset">
+            <p class="pp">Иудаизм</p>
+            <div>
+                <label for="judaism">Иудаизм</label>
+                <select class="select" id="judaism" name="judaism">
+                    <option value="Dont fear">Не верю</option>
+                    <option value="Orthodox Judaism">Ортодоксальный иудаизм</option>
+                    <option value="Haredim">Харедим</option>
+                    <option value="Hasidism">Хасидизм</option>
+                    <option value="Chabad">Хабад</option>
+                    <option value="Gur Hasidim">Гурские хасиды</option>
+                    <option value="Satmar Hasidim">Сатмарские хасиды</option>
+                    <option value="Чернобыльские хасиды">Чернобыльские хасиды</option>
+                </select>
+            </div>
+<div class="check">
+    <div>
+    <input name="support" id="support" type="checkbox">
+    <label for="support">Поддерживаю</label>
+</div>
+    <div>
+    <input name="neutral" id="neutral" type="checkbox">
+    <label for="neutral">Нейтрален</label>
+    </div>
+    <div>
+    <input name="against" id="against" type="checkbox">
+    <label for="against">Против</label>
+    </div>
+</div>
+<div class="radio">
+    <div>
+        <input name="signa" id="signa" type="radio">
+        <label for="signa">Знаком</label>
+    </div>
+    <div>
+        <input name="not_familiara" id="not_familiara" type="radio">
+        <label for="not_familiara">Не знаком</label>
+    </div>
+</div>
+<div>
+    <label for="comment">Комментарий</label>
+    <p><textarea id="comment" rows="3" cols="45" name="text" maxlength="70"></textarea></p>
+</div>
+</fieldset>
+<fieldset class="fieldset">
+    <p class="pp">православная церковь</p>
+    <div>
+        <label for="church">православная церковь</label>
+        <select class="select" id="church" name="church">
+            <option value="Dont fear">Не верю</option>
+            <option value="Armenian Apostolic Church">Армянская апостольская церковь</option>
+            <option value="Coptic Orthodox Church">Коптская православная церковь</option>
+            <option value="Ethiopian Orthodox Church">Эфиопская православная церковь</option>
+            <option value="Eritrean Orthodox Church">Эритрейская православная церковь</option>
+            <option value="Syriac Orthodox Church">Сирийская православная церковь</option>
+            <option value="Malankara Orthodox Church">Маланкарская православная церковь</option>
+        </select>
+    </div>
+<div class="check">
+    <div>
+<input name="supporth" id="supporth" type="checkbox">
+<label for="supporth">Поддерживаю</label>
+</div>
+<div>
+<input name="neutralh" id="neutralh" type="checkbox">
+<label for="neutralh">Нейтрален</label>
+</div>
+<div>
+<input name="againsth" id="againsth" type="checkbox">
+<label for="againsth">Против</label>
+</div>
+</div>
+<div class="radio">
+    <div>
+        <input name="signs" id="signs" type="radio">
+        <label for="signs">Знаком</label>
+    </div>
+    <div>
+        <input name="not_familiars" id="not_familiars" type="radio">
+        <label for="not_familiars">Не знаком</label>
+    </div>
+</div>
+<div>
+<label for="comment">Комментарий</label>
+<p><textarea rows="3" cols="45" name="comment" maxlength="70"></textarea></p> 
+</div>
+</fieldset> 
+<fieldset class="fieldset">
+    <p class="pp">Православие</p>
+    <div>
+        <label for="orthodoxy">Православие</label>
+        <select class="select" id="orthodoxy" name="orthodoxy">
+            <option value="Dont fear">Не верю</option>
+            <option value="Ecumenical Orthodoxy">Вселенское православие</option>
+            <option value="Orthodox Churches outside communion with Ecumenical Orthodoxy">Православные церкви вне общения со Вселенским православием</option>
+            <option value="Old Believers">Старообрядчество</option>
+            <option value="True Orthodox Church">Истинно-православная церковь</option>
+            <option value="Catacomb Church">Катакомбная церковь</option>
+        </select>
+    </div>
+<div class="check">
+    <div>
+<input name="supportt" id="supportt" type="checkbox">
+<label for="supportt">Поддерживаю</label>
+</div>
+<div>
+<input name="neutralt" id="neutralt" type="checkbox">
+<label for="neutralt">Нейтрален</label>
+</div>
+<div>
+<input name="againstt" id="againstt" type="checkbox">
+<label for="againstt">Против</label>
+</div>
+</div>
+<div class="radio">
+    <div>
+        <input name="signd" id="signd" type="radio">
+        <label for="signd">Знаком</label>
+    </div>
+    <div>
+        <input name="not_familiard" id="not_familiard" type="radio">
+        <label for="not_familiard">Не знаком</label>
+    </div>
+</div>
+<div>
+<label for="comment">Комментарий</label>
+<p><textarea rows="3" cols="45" name="commen" maxlength="70"></textarea></p>
+</div>
+</fieldset>
+<fieldset class="fieldset">
+    <p class="pp">Католицизм</p>
+    <div>
+        <label for="catholicism">Католицизм</label>
+        <select class="select" id="catholicism" name="catholicism">
+            <option value="Dont fear">Не верю</option>
+            <option value="Catholic Church">Католическая церковь</option>
+            <option value="Eastern Catholic Churches">Восточнокатолические церкви</option>
+            <option value="Old Catholicism">Старокатолицизм</option>
+            <option value="Traditionalist Catholics">Католики-традиционалисты</option>
+        </select>
+    </div>
+<div class="check">
+    <div>
+<input name="supportr" id="supportr" type="checkbox">
+<label for="supportr">Поддерживаю</label>
+</div>
+<div>
+<input name="neutralr" id="neutralr" type="checkbox">
+<label for="neutralr">Нейтрален</label>
+</div>
+<div>
+<input name="againstr" id="againstr" type="checkbox">
+<label for="againstr">Против</label>
+</div>
+</div>
+<div class="radio">
+    <div>
+        <input name="signw" id="signw" type="radio">
+        <label for="signw">Знаком</label>
+    </div>
+    <div>
+        <input name="not_familiarw" id="not_familiarw" type="radio">
+        <label for="not_familiarw">Не знаком</label>
+    </div>
+</div>
+<div>
+<label for="comment">Комментарий</label>
+<p><textarea rows="3" cols="45" name="comme"></textarea></p>
+</div>
+</fieldset>
+<fieldset class="fieldset">
+    <p class="pp">Протестантизм</p>
+    <div>
+        <label for="Protestantism">Протестантизм</label>
+        <select class="select" id="Protestantism" name="Protestantism">
+            <option value="Dont fear">Не верю</option>
+            <option value="Protoprotestantism">Протопротестантизм</option>
+            <option value="Waldensians">Вальденсы</option>
+            <option value="Hussites">Гуситы</option>
+            <option value="Czech brothers">Чешские братья</option>
+            <option value="Moravian Church">Моравская церковь</option>
+        </select>
+    </div>
+<div class="check">
+    <div>
+<input name="supports" id="supports" type="checkbox">
+<label for="supports">Поддерживаю</label>
+</div>
+<div>
+<input name="neutrals" id="neutrals" type="checkbox">
+<label for="neutrals">Нейтрален</label>
+</div>
+<div>
+<input name="againsts" id="againsts" type="checkbox">
+<label for="againsts">Против</label>
+</div>
+</div>
+<div class="radio">
+    <div>
+        <input name="signq" id="signq" type="radio">
+        <label for="signq">Знаком</label>
+    </div>
+    <div>
+        <input name="not_familiarq" id="not_familiarq" type="radio">
+        <label for="not_familiarq">Не знаком</label>
+    </div>
+</div>
+<div>
+<label for="comment">Комментарий</label>
+<p><textarea rows="3" cols="45" name="comm" maxlength="70"></textarea></p>
+</div>
+</fieldset>
+<button type="submit" class="submit">Отправить ответы</button>
+</div>
+<div class="ads2">
+    <img class="img" src="images/Rolls_Royse.jpg" alt="img">
+    <p class="p">На фотографии выше изображена реклама Роллс-Ройса авторства того же человека. Заголовок (“На скорости 60 миль в час самый громкий звук в салоне – тиканье электро часов“) уже все сказал, поэтому в картинке нет необходимости.</p>
+    <a class="a" href="https://www.rolls-roycemotorcars.com/en_GB/home.html">Ссылка</a>
+</div>
+</div>
+</form>
+</body>
+<footer>
+    <div>
+        <p>Разработчик страницы Браславский Дмитрий К21.2/1</p>
+    </div>
+    <div><a href="http://server.odessa.ua/">Сайт колледжа</a></div>
+    <div class="ilon"><a href="images/Ilon_Mask.jpg"><img src="images/Ilon_Mask.jpg" alt="image"></a></div>
+        <p>©2022год</p>
+</footer>
+</html>
