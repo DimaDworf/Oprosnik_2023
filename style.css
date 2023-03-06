@@ -86,7 +86,7 @@ h2{
     align-items: center;
     color:antiquewhite;
     animation: 8s infinite alternate ground;
-     animation-duration: 7s;
+     animation-duration: 8s;
     animation-name: ground;
 }
 @keyframes ground {
