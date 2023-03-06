@@ -225,7 +225,7 @@ footer{
 @media(max-width:450px){
     .fieldset{
         width: 200px;
-        height: 180px;
+        height: 200px;
         margin-bottom: 10px;
     }
       .cont{
@@ -239,7 +239,7 @@ footer{
         width: 400px;
     }
     h2{
-        margin:5% 0px 0px 400px;
+        margin:5% 0px 0px 350px;
     }
     footer{
         margin: 120px 0 0 0;
