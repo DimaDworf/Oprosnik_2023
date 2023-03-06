@@ -86,7 +86,7 @@ h2{
     flex-direction: column;
     align-items: center;
     color:antiquewhite;
-    /*animation: 8s infinite alternate ground;*/
+    animation: 8s infinite alternate ground;
     animation-name: ground;
 }
 @keyframes ground {
@@ -115,7 +115,7 @@ h2{
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
-    /*animation: 8s infinite alternate ground;*/
+    animation: 8s infinite alternate ground;
     animation-name: ground;
 }
     
@@ -141,7 +141,7 @@ h2{
     border-radius: 20px;
     width: 102px;
     color: antiquewhite;
-    /*animation: 8s infinite alternate bouck;*/
+    animation: 8s infinite alternate bouck;
     animation-name: bouck;
 }
 @keyframes bouck {
@@ -259,6 +259,14 @@ footer{
 }
 
 @media(max-width:400px){
+    h2{
+        margin:5% 0px 60px 300px;
+    }
+    footer{
+        margin: 170px 0 0 0;
+    }
+}
+@media(max-width:300px){
     h2{
         margin:5% 0px 60px 300px;
     }
