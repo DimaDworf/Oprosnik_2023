@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 750px;
-    margin: 0 100px 0 100px;
+    margin: 150px 70px 0 70px;
     flex-wrap: wrap;
     z-index: 3;
     align-content: space-around;
@@ -60,6 +60,7 @@ h2{
     border: 7px solid black;
     background-color: orange;
 }
+
 .select{
     width: 300px;
 }
@@ -78,15 +79,14 @@ h2{
 .ads1{
     display: flex;
     background-color: orange;
-    height: 20%;
-    width: 15%;
+    height: 474px;
+    width: 180px;
     border: 5px solid black;
     border-radius: 20px;
     flex-direction: column;
     align-items: center;
     color:antiquewhite;
     animation: 8s infinite alternate ground;
-     animation-duration: 8s;
     animation-name: ground;
 }
 @keyframes ground {
@@ -109,8 +109,8 @@ h2{
 }
 .ads2{display: flex;
     background-color: orange;
-    height: 20%;
-    width: 15%;
+    height: 474px;
+    width: 180px;
     border: 5px solid black;
     border-radius: 20px;
     flex-direction: column;
@@ -141,8 +141,26 @@ h2{
     border-radius: 20px;
     width: 102px;
     color: antiquewhite;
-    animation-name: ground;
-    animation: 8s infinite alternate ground;
+    animation: 8s infinite alternate bouck;
+    animation-name: bouck;
+}
+@keyframes bouck {
+    0%{
+        background-color: rgb(0, 0, 255);
+        border-color: rgb(0, 0, 255);
+    }
+    50%{
+        background-color:rgb(255, 127, 80);
+        border-color: rgb(255, 127, 80);
+    }
+    75%{
+        background-color: rgb(75, 0, 130);;
+        border-color: rgb(75, 0, 130);
+    }
+    100%{
+        background-color: rgb(0, 0, 255);;
+        border-color:rgb(0, 0, 255);
+    }
 }
 .cont{
 display: flex;
@@ -153,4 +171,30 @@ footer{
     width: 200px;
     height: 280px;
     background-color: orange;
+}
+.textaree{
+    margin: 0px;
+}
+@media(max-width:450px){
+    .fieldset{
+        width: 200px;
+        height: 170px;
+        margin-bottom: 10px;
+    }
+      .cont{
+        width: 450px;
+
+    }
+    .ads1{
+        width: 400px;
+    }
+    .ads2{
+        width: 400px;
+    }
+    h2{
+        margin:5% 0px 0px 65%;
+    }
+    footer{
+        margin: 120px 0 0 0;
+    }
 }
