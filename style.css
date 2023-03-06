@@ -257,3 +257,12 @@ footer{
         margin: 170px 0 0 0;
     }
 }
+
+@media(max-width:400px){
+    h2{
+        margin:5% 0px 60px 300px;
+    }
+    footer{
+        margin: 170px 0 0 0;
+    }
+}
