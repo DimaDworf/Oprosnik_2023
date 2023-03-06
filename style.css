@@ -220,8 +220,21 @@ footer{
     footer{
         margin: 120px 0 0 0;
     }
+}@media(max-width:650px){
+    h2{
+        margin:5% 0px 20px 310px;
+    }
 }
-
+@media(max-width:600px){
+    h2{
+        margin:5% 0px 20px 310px;
+    }
+}
+@media(max-width:490px){
+    h2{
+        margin:5% 0px 20px 310px;
+    }
+}
 @media(max-width:450px){
     .fieldset{
         width: 200px;
@@ -244,4 +257,3 @@ footer{
         margin: 170px 0 0 0;
     }
 }
-
