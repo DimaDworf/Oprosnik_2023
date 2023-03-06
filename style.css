@@ -175,6 +175,53 @@ footer{
 .textaree{
     margin: 0px;
 }
+@media(max-width:1024px){
+    .fieldset{
+        width: 200px;
+        height: 170px;
+        margin-bottom: 10px;
+    }
+      .cont{
+        width: 1024px;
+
+    }
+    .ads1{
+        width: 400px;
+    }
+    .ads2{
+        width: 400px;
+    }
+    h2{
+        margin:5% 0px 0px 45%;
+    }
+    footer{
+        margin: 120px 0 0 0;
+    }
+}
+@media(max-width:770px){
+    .fieldset{
+        width: 200px;
+        height: 170px;
+        margin-bottom: 10px;
+    }
+      .cont{
+        width: 770px;
+
+    }
+    .ads1{
+        width: 400px;
+    }
+    .ads2{
+        width: 400px;
+    }
+    h2{
+        margin:5% 0px 0px 45%;
+    }
+    footer{
+        margin: 120px 0 0 0;
+    }
+}
+
 @media(max-width:450px){
     .fieldset{
         width: 200px;
@@ -192,9 +239,10 @@ footer{
         width: 400px;
     }
     h2{
-        margin:5% 0px 0px 65%;
+        margin:5% 0px 0px 90%;
     }
     footer{
         margin: 120px 0 0 0;
     }
 }
+
